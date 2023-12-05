@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Document object Module</title>
+</head>
+<body style="background-image: url(https://wallpapercave.com/wp/wp4381464.jpg);">
+<h1 id="demo" style="color: rgb(3, 51, 20);">WELCOME TO CIT</h1>
+<button onmousedown="mousedown()" onmouseup="mouseup()"><img id="img"
+src="C:\Users\Barath\Pictures\OIP.jpeg" style="height:300px;width: 300px;"
+onmouseover="func()" onmouseout="fun()"></button>
+<h2 id="d1" style="color: rgb(255, 255, 254);"></h2>
+<button onkeyup="keyup()" onkeydown="keydown()">Click</button>
+<script>
+function mousedown(){
+document.getElementById("demo").style.color="Red";
+}
+function mouseup(){
+document.getElementById("demo").style.color="aqua";
+}
+function func(){
+document.getElementById("img").style.height="500px";
+document.getElementById("img").style.width="500px";
+}
+function fun(){
+document.getElementById("img").style.height="300px";
+document.getElementById("img").style.width="300px";
+}
+function keyup(){
+document.getElementById("d1").innerHTML="VISIT AGAIN!";
+}
+function keydown(){
+document.getElementById("d1").innerHTML="THANK YOU";
+}
+</script>
+</body>
+</html>
